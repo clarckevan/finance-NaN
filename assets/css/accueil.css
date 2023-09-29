@@ -45,10 +45,12 @@
 ul li a{
     text-decoration: none;
     color: white;
+    background-color:red ;
 }
 nav ul li a:hover {
    
     color: red;
+    background-color:red ;
 }
 .logo{
     display: flex;
@@ -98,6 +100,7 @@ nav ul li a:hover {
         padding: 5px 0;
         position: relative;
         -webkit-background-clip: text;
+        background-clip: unset;
         -webkit-text-fill-color: transparent;
         transition: all 0.3s ease-in-out;
       }

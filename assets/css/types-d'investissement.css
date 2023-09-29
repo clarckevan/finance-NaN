@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+  
+  }
+  header{
+    background-image: url("../images/font/unsplash2.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(101, 41, 169);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* object-position: 30px; */
+    position: fixed;
+    z-index: 1;
+}
+.africa{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    top: -10px;
+}
+.ul1{
+    display: flex;
+}
+.ul1 li{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.investhover{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+.logo{
+    display: flex;
+  position: relative;
+  color: white;
+} 
+.offres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    color: black;
+}
+.offres1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(101, 41, 169);;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ptitcarre{
+    width: 350px;
+    height: 400px;
+    background-color:  white;
+    margin: 10px auto;
+
+}
+.ptitcarre1{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+}
+.ptitcarre2{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+}
+.ptitcarre .back{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplashimmobilier.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.ptitcarre1 .back1{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplashimmobilier1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.ptitcarre2 .back2{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplash-agriculture.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.maisonh3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.maisonh4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.cmmerce{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(101, 41, 169);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ptitcarre{
+    width: 350px;
+    height: 400px;
+    background-color:  white;
+    margin: 10px auto;
+
+}
+.ptitcarre1{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+}
+.ptitcarre2{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+}
+.ptitcarre .back{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplashimmobilier.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.ptitcarre1 .back1{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplashimmobilier1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.ptitcarre2 .back2{
+    width: 100%;
+    height: 45%;
+    background-image: url(../images/font/unsplash5.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.maisonh5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.maisonh6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.maisonh7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+.cmmerce{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.foot{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(101, 41, 169);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.foot .copyright{
+    color: white;
+    margin: 0 auto;
+    margin-top: 370px;
+}
+
+.foot .tel{
+    color: white;
+    margin-top: -30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    }
+
+    .locaux{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin-top: -350px;
+        font-weight: bold;
+        color: white;
+     }
+     a {
+        background-image: linear-gradient(
+          to right,
+          #54b3d6,
+          #54b3d6 50%,
+          #000 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      a:before {
+        content: '';
+        background: #54b3d6;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      a:hover {
+       background-position: 0;
+      }
+      
+      a:hover::before {
+        width:100%;
+      }
+
+
+
+  

@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body{
+    width: 99%;
+}
+.profil{
+    background-color: rgb(101, 41, 169);
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border-radius: 30px;
+    border: solid;   
+}
+.Prfil{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ color: white;
+}
+.nom{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.prenom{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.email{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.nation{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.somme{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.formuleactiver{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
